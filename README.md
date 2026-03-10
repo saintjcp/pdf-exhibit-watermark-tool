@@ -6,31 +6,20 @@ Automatically watermark exhibit numbers and descriptions onto every page of PDF 
 
 ## Overview
 
-This tool automatically stamps exhibit numbers and descriptions onto every page of uploaded PDF files.  
+This tool automatically stamps exhibit numbers and descriptions onto every page of uploaded PDF files.
+
 The exhibit number and description are read directly from the file name.
 
-Example file name format:
+Example filename format:
 
 EXHIBIT 11.3 - Operations Located in Low Cost Energy Regions.pdf
 
-The notebook then applies a diagonal watermark to every page.
-
 ## How It Works
 
-1. Open the notebook in Google Colab.
-2. Upload one or more PDF exhibits.
-3. The notebook automatically reads the exhibit number and description from the file name.
-4. Watermarked PDFs are generated and saved to a download folder.
-
-## File Naming Format
-
-Name your files like this:
-
-EXHIBIT NUMBER - DESCRIPTION.pdf
-
-Example:
-
-EXHIBIT 5.1 - Investor Presentation.pdf
+1. Click **Open in Colab**
+2. Upload your exhibit PDFs
+3. The notebook automatically reads the exhibit number and description from the file name
+4. Watermarked exhibits are generated for download
 
 ## License
 
